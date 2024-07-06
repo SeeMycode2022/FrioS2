@@ -82,17 +82,17 @@ button{
         width: 200px;
         background-size: 100% 100%;
         background-position: center;
-        height: 50vh;
+        height: 300px;
     }  
     hr{
         width: 200px;
     } 
     input{
         width: 100px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        padding-left: 10px;
+        padding-right: 10px;
     } 
     input::placeholder{
         font-size: 10px;
@@ -103,11 +103,12 @@ button{
         font-size: 10px;
     }
     button{
-        padding-top: 2.5px;
-        padding-bottom: 2.5px;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 10px;
+    }
+    .flexes{
+        margin-top: 30px;
     }
 }
 /* For screens smaller than 768px (e.g. mobile devices) */
