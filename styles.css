@@ -83,9 +83,59 @@ button{
     padding-bottom: 10px;
     margin-right: 10px;
 }
-
-/* For screens smaller than 768px (e.g. mobile devices) */
 @media only screen and (max-width: 768px) {
+    .container {
+        width: 250px;
+        height: 300px;
+    }  
+    hr{
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } 
+    input{
+        width: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+    input::placeholder{
+        font-size: 10px;
+    }
+    
+    label{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    button{
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(50%);
+        margin-left: -40px;
+    }
+    .space{
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .data-container{
+        padding-top: -20px;
+        padding-left: 5px;
+        padding-right: 10px;
+        padding-bottom: -10px;
+    }
+}
+/* For screens smaller than 768px (e.g. mobile devices) */
+@media only screen and (min-width:406px) and (max-width: 768px) {
     .container {
         width: 290px;
         height: 300px;
