@@ -78,7 +78,7 @@ button{
     font-weight: bold;
     padding-left: 30px;
     padding-right: 30px;
-    background-image: linear-gradient(to left, rgba(184,223,239,0.7), rgba(240,165,47,0.7));
+    background-image: linear-gradient(to left, rgba(184,223,239,1), rgba(240,165,47,1));
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
