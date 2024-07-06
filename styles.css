@@ -62,7 +62,7 @@ input{
 
 }   
 input::placeholder{
-    font-size: 15px;
+    font-size: 10px;
 }
 button{
     color: rgba(80,45,21,255);
