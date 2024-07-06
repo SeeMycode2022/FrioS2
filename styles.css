@@ -3,35 +3,42 @@ body {
     background-image: linear-gradient(to left, rgba(184,223,239,0.7), rgba(240,165,47,0.7));
     background-attachment: fixed;
     overflow: hidden;
-}
-.font{
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
-    background-image: url('./Frio.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255);
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.085);
-    text-align: center;
+    background-color: rgba(216,214,215,255);
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    width: 400px;
-    height: 400px;
+    text-align: center;
     border: 10px solid rgba(red, green, blue, 0.1);
     border-radius: 10px;
     padding: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.085);
+    background-color: rgba(217,215,216,255);
+    height: 700px;  
 }
-.flexes{
-    margin-top: 40px;
+img{
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(40%);
 }
-.name-container{
-    display: block;
-    padding: 10px;
+.img-container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: rgba(217,215,216,255);  
+}
+.data-container{
+    padding: 30px;
+}
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 hr{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.061);
@@ -62,7 +69,7 @@ input{
 
 }   
 input::placeholder{
-    font-size: 10px;
+    font-size: 15px;
 }
 button{
     color: rgba(80,45,21,255);
@@ -71,28 +78,28 @@ button{
     font-weight: bold;
     padding-left: 30px;
     padding-right: 30px;
-    background-image: linear-gradient(to left, rgba(184,223,239,1), rgba(240,165,47,1));
+    background-image: linear-gradient(to left, rgba(184,223,239,0.7), rgba(240,165,47,0.7));
     border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
 }
-/* For screens smaller than 405px (e.g. mobile devices) */
 @media only screen and (min-width: 50px) and (max-width: 405px){
     .container {
-        width: 200px;
-        background-size: 100% 100%;
-        background-position: center;
+        width: 290px;
         height: 300px;
     }  
     hr{
         width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     } 
     input{
         width: 100px;
-        padding-top: 2.5px;
-        padding-bottom: 2.5px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
     } 
     input::placeholder{
         font-size: 10px;
@@ -103,20 +110,35 @@ button{
         font-size: 10px;
     }
     button{
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 10px;
     }
-    .flexes{
-        margin-top: 30px;
+    img{
+        width: 150px;
+        height: 150px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(50%);
+        margin-left: -35px;
+    }
+    .space{
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .data-container{
+        padding-top: -20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: -10px;
     }
 }
 /* For screens smaller than 768px (e.g. mobile devices) */
 @media only screen and (min-width: 406px)  and (max-width: 768px) {
     .container {
         width: 300px;
-        background-size: 100% 100%;
-        background-position: center;
     }
     input{
         padding-top: 10px;
@@ -133,8 +155,6 @@ button{
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
         width: 400px;
-        background-size: 100% 100%;
-        background-position: center;
     }  
     hr{
         width: 400px;
@@ -142,11 +162,6 @@ button{
 } 
   /* For screens larger than 1024px (e.g. desktop screens) */
 @media only screen and (min-width: 1024px) {
-    .container {
-        width: 400px;
-        background-size: 100% 100%;
-        background-position: center;
-    }
     hr{
         width: 400px;
     }
