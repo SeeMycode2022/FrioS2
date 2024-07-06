@@ -2,7 +2,6 @@ body {
     margin: 10px;
     background-image: linear-gradient(to left, rgba(184,223,239,0.7), rgba(240,165,47,0.7));
     background-attachment: fixed;
-    overflow: hidden;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
