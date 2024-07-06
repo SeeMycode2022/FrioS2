@@ -19,6 +19,7 @@ body {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.085);
     background-color: rgba(217,215,216,255);
     height: 700px;  
+    width: 800px;
 }
 img{
     width: 400px;
@@ -89,7 +90,7 @@ button{
         height: 300px;
     }  
     hr{
-        width: 150px;
+        width: 160px;
         margin-top: 20px;
         margin-bottom: 20px;
     } 
