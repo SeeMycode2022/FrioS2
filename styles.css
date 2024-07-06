@@ -84,7 +84,9 @@ button{
     padding-bottom: 10px;
     margin-right: 10px;
 }
-@media only screen and (min-width: 50px) and (max-width: 405px){
+
+/* For screens smaller than 768px (e.g. mobile devices) */
+@media only screen and (max-width: 768px) {
     .container {
         width: 290px;
         height: 300px;
@@ -135,29 +137,28 @@ button{
         padding-bottom: -10px;
     }
 }
-/* For screens smaller than 768px (e.g. mobile devices) */
-@media only screen and (min-width: 406px)  and (max-width: 768px) {
-    .container {
-        width: 300px;
-    }
-    input{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 170px;
-    } 
-    hr{
-        width: 300px;
-    }
-  }
   /* For screens between 768px and 1024px (e.g. tablets) */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) { 
     .container {
-        width: 400px;
-    }  
+        width: 700px;
+        height: 700px;
+    }
     hr{
         width: 400px;
+    }
+    .data-container{
+        padding-top: -20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: -10px;
+    }
+    img{
+        width: 340px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(60%);
+        margin-left: -20px;
     }
 } 
   /* For screens larger than 1024px (e.g. desktop screens) */
