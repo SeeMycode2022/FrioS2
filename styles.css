@@ -104,10 +104,9 @@ button{
     input::placeholder{
         font-size: 5px;
     }
-    
     label{
-        margin-right: 5px;
-        font-size: 10px;
+        margin-right: 3px;
+        font-size: 8px;
     }
     button{
         padding-top: 2.5px;
@@ -156,10 +155,9 @@ button{
     input::placeholder{
         font-size: 8px;
     }
-    
     label{
-        margin-right: 5px;
-        font-size: 10px;
+        margin-right: 3px;
+        font-size: 8px;
     }
     button{
         padding-top: 2.5px;
