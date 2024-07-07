@@ -102,7 +102,7 @@ button{
         padding-right: 10px;
     } 
     input::placeholder{
-        font-size: 10px;
+        font-size: 5px;
     }
     
     label{
@@ -154,7 +154,7 @@ button{
         padding-right: 20px;
     } 
     input::placeholder{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     label{
